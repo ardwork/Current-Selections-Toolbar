@@ -5,10 +5,13 @@ A very simple Qlik Sense extension that allows users to show the selections curr
 <br>
 <br>
 <br>
-<img src="https://github.com/ardwork/Current-Selections-Toolbar/blob/master/img/currentSelections1.jpg">
+<img src="https://github.com/ardwork/Current-Selections-Toolbar/blob/master/img/CurrentSelectionsToolbar1.jpg">
 <br>
+<h4>Easily show and hide the action buttons</h4>
+<img src="https://github.com/ardwork/Current-Selections-Toolbar/blob/master/img/CurrentSelectionsToolbar2.jpg">
 <br>
-<img src="https://github.com/ardwork/Current-Selections-Toolbar/blob/master/img/currentSelections2.jpg">
+<h4>Or have no buttons at all</h4>
+<img src="https://github.com/ardwork/Current-Selections-Toolbar/blob/master/img/CurrentSelectionsToolbar3.png" alt="Example Current Selections object">
 <br>
 <br>
 <h3>Instructions:</h3>
