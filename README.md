@@ -6,24 +6,24 @@ A very simple Qlik Sense extension that allows users to show the selections curr
 <img src="https://github.com/ardwork/Current-Selections-Toolbar/blob/master/img/CurrentSelectionsToolbar1.JPG">
 <br>
 <br>
-<h4>Easily show and hide the action buttons</h4>
+<h3>Easily show and hide the action buttons</h3>
 <img src="https://github.com/ardwork/Current-Selections-Toolbar/blob/master/img/CurrentSelectionsToolbar2.JPG">
 <br>
 <br>
-<h4>Or have no buttons at all</h4>
+<h3>Or have no buttons at all</h3>
 <img src="https://github.com/ardwork/Current-Selections-Toolbar/blob/master/img/CurrentSelectionsToolbar3.JPG">
 <br>
 <br>
-<h3>Instructions:</h3>
+<h2>Instructions:</h2>
 There are no instructions, simply drag the 'Current Selections' object onto your sheet and give it a Title as you require.
 <br>
 <br>
-<h3>Testing</h3>
+<h2>Testing</h2>
 Tested with Qlik Sense 2.2.* and 3.1.* <br>
 Note: At the time of testing extensions do not print to PDF or PowerPoint and appear as invalid object areas. This will hopefully be addressed soon to allow the full fuctionality of export sheets and stories to be available across extensions.<br>
 <br>
 <br>
-<h3>Comments</h3>
+<h2>Comments</h2>
 1. On initial opening the 'No Current Selections' message is repeated 3 times. If anyone has a solution for this I'd be interested as I have not been able to resolve it.
 <br>
 <br>
