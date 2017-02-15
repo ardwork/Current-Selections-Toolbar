@@ -1,6 +1,4 @@
 <h2>Qlik Sense Current Selections Object with Action Buttons</h2>
-<br>
-<br>
 A very simple Qlik Sense extension that allows users to show the selections currently set in an application. This has been requested for use cases where exporting / printing a sheet or story to PDF or Powerpoint and the selections are required to be shown. You can show and hide the buttons you require to allow users to manange the selections, to a limited extent, from this object.
 <br>
 <img src="https://github.com/ardwork/Current-Selections-Toolbar/blob/master/img/CurrentSelectionsToolbar1.JPG">
