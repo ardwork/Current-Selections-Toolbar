@@ -5,10 +5,10 @@ A very simple Qlik Sense extension that allows users to show the selections curr
 <br>
 <br>
 <br>
-<img src="https://github.com/ardwork/currentSelectionstoolbox/blob/master/img/currentSelections1.png" alt="Example Current Selections object">
+<img src="https://github.com/ardwork/Current-Selections-Toolbar/tree/master/img/currentSelections1.png" alt="Example Current Selections object">
 <br>
 <br>
-<img src="https://github.com/ardwork/currentSelectionstoolbox/blob/master/img/currentSelections2.png" alt="Example Current Selections object">
+<img src="https://github.com/ardwork/Current-Selections-Toolbar/tree/master/img/currentSelections2.png" alt="Example Current Selections object">
 <br>
 <br>
 <h3>Instructions:</h3>
@@ -23,4 +23,8 @@ Note: At the time of testing extensions do not print to PDF or PowerPoint and ap
 <br>
 <br>
 <h3>Comments</h3>
-On initial opening the 'No Current Selections' message is repeated 3 times. If anyone has a solution for this I'd be interested as I have not been able to resolve it.
+1. On initial opening the 'No Current Selections' message is repeated 3 times. If anyone has a solution for this I'd be interested as I have not been able to resolve it.
+<br>
+<br>
+2. In Qlik Sense Desktop the CSS does not change the rendering in this object. The above screenshots are from the browser URL, the desktop currently renders as below.
+<img src="https://github.com/ardwork/Current-Selections-Toolbar/tree/master/img/CurrentSelectionsToolbar4.png" alt="Example Current Selections object">
