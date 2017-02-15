@@ -1,0 +1,12 @@
+{
+	"name" : "Current Selections Toolbar",
+	"description" : "Current Selections with Toolbar Action Buttons",
+	"type" : "visualization",
+	"version": "1.0.0",
+	"author" : "Richard Byard",
+	"homepage" : "https://community.qlik.com/people/ryy",
+	"keywords" : "qlik-sense, visualization",
+	"license" : "MIT",
+	"repository" : "",
+    "dependencies" : { "qlik-sense" : ">=2.1.x" }
+}

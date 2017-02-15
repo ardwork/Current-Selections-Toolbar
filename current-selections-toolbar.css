@@ -1,0 +1,55 @@
+.qtoolbar .qui-buttongroup{
+	font-size: 13px;
+}
+
+.qtoolbar .qui-button{
+	font-size: 14px;
+/*	font-weight: bold; */
+	color: #808080;
+	padding-left: 10px; 
+	padding-right: 10px; 
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-right: 3px;  
+	border-radius: 5px; 
+	border-color: #EEEEEE; 
+	background-color: #EEEEEE;
+}
+
+.qtoolbar .csheader{
+	font-size: 14px;
+	color: #808080;
+	font-weight: bold;
+	padding-top: 6px;
+}
+
+.qtoolbar  div {
+	overflow: auto;
+	text-align: left;
+}
+
+.qtoolbar table {
+	border-top: 0px solid;
+	border-left: 0px solid;
+	border-bottom: 0px solid;
+	border-right: 0px solid;
+	border-color: #606060;
+	font-size: 12px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+	cursor: default;
+	text-align: left;
+}
+
+.qtoolbar th {
+	padding-left: 5px;
+	padding-bottom: 1px;
+	font-weight: bold;
+}
+
+
+.qtoolbar td {
+	padding-left: 5px;
+	padding-bottom: 1px;
+}
