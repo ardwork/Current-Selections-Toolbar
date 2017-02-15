@@ -5,10 +5,10 @@ A very simple Qlik Sense extension that allows users to show the selections curr
 <br>
 <br>
 <br>
-<img src="https://github.com/ardwork/Current-Selections-Toolbar/tree/master/img/currentSelections1.png" alt="Example Current Selections object">
+<img src="img/currentSelections1.png">
 <br>
 <br>
-<img src="https://github.com/ardwork/Current-Selections-Toolbar/tree/master/img/currentSelections2.png" alt="Example Current Selections object">
+<img src="img/currentSelections2.png">
 <br>
 <br>
 <h3>Instructions:</h3>
@@ -27,4 +27,5 @@ Note: At the time of testing extensions do not print to PDF or PowerPoint and ap
 <br>
 <br>
 2. In Qlik Sense Desktop the CSS does not change the rendering in this object. The above screenshots are from the browser URL, the desktop currently renders as below.
-<img src="https://github.com/ardwork/Current-Selections-Toolbar/tree/master/img/CurrentSelectionsToolbar4.png" alt="Example Current Selections object">
+<br>
+<img src="img/CurrentSelectionsToolbar4.png">
