@@ -99,6 +99,8 @@ define(["jquery", "text!./current-selections-toolbar.css",
 			$element.empty();
 			$element.html(html);
 			
+			var divElement = $('<div>');
+			$element.append(divElement);
 			
 			// Show Current Selections
 			if(layout.selections.show) {
@@ -107,27 +109,25 @@ define(["jquery", "text!./current-selections-toolbar.css",
 				var mySelectedFields = reply.qSelectionObject.qSelections,
 					mySelectedFieldsLength = mySelectedFields.length,
 					html2 = '';
-					
-					$element.clear;
+					divElement.empty();
 					
 				if(mySelectedFieldsLength > 0) {
-				
+						
 						html2 += '<div class="csheader">Current Selections</div><div><table id="mySelections"><tr><th>Field</th><th>Count</th><th>Values</th></tr>';
 					
 						for (var i = 0; i < mySelectedFieldsLength; i++){
 							html2 += '<tr><td>' + mySelectedFields[i].qField + '</td><td>' + mySelectedFields[i].qSelectedCount + ' of ' + mySelectedFields[i].qTotal + '</td><td>' + mySelectedFields[i].qSelected + '</td></tr>';
 							}
-							html2 += '</table></div>';		
-						
+							html2 += '</table></div>';			
+
 				}
 				else
 				{ html2 += '<div class="csheader">No Current Selections</div>';
 
-					}
+				}
 				
-				$element.clear;
-				$element.append(html2);
-			
+				divElement.append(html2);
+				
 				}
 			);
 			
