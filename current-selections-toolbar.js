@@ -71,6 +71,11 @@ define(["jquery", "text!./current-selections-toolbar.css",
 				}
 			}
 		},
+		
+		//Allow export to print object 
+		support : { export: true 
+		},
+			
 		paint : function($element, layout) {
 			$element.css('overflow', 'auto');
 			$element.addClass( 'qtoolbar' );
@@ -78,7 +83,7 @@ define(["jquery", "text!./current-selections-toolbar.css",
 			
 			// Show Buttons
 			var html = '', app = qlik.currApp(this);
-			html += '<div class="qui-buttongroup">';
+			html += '<div><div class="qui-buttongroup">';
 			if(layout.buttons.clear) {
 				html += createBtn("clearAll", "Clear");
 			}
@@ -118,11 +123,11 @@ define(["jquery", "text!./current-selections-toolbar.css",
 						for (var i = 0; i < mySelectedFieldsLength; i++){
 							html2 += '<tr><td>' + mySelectedFields[i].qField + '</td><td>' + mySelectedFields[i].qSelectedCount + ' of ' + mySelectedFields[i].qTotal + '</td><td>' + mySelectedFields[i].qSelected + '</td></tr>';
 							}
-							html2 += '</table></div>';			
+							html2 += '</table></div></div>';			
 
 				}
 				else
-				{ html2 += '<div class="csheader">No Current Selections</div>';
+				{ html2 += '<div class="csheader">No Current Selections</div></div>';
 
 				}
 				
@@ -169,6 +174,9 @@ define(["jquery", "text!./current-selections-toolbar.css",
 				}
 			});
 
+			// added to enable printing
+			return qlik.Promise.resolve();
+			
 		}
 	};
 });
